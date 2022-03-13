@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.TeamSportsLive" version="1.0" name="[COLOR white][B]TEAM SPORTS LIVE[/B][/COLOR]" provider-name="[B][COLOR white]A.DANTAS[/COLOR][/B]">
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+		<import addon="script.module.requests"/>
+		<import addon="script.module.beautifulsoup4"/>	
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>	
+    <extension point="xbmc.addon.metadata">
+		<summary lang="pt">Jogos ao vivo Grátis aqui no Team Sports Live de forma gratuita 24 horas</summary>
+		<description lang="pt">As transmissões que você assiste são de responsabilidade de sites diversos espalhados pela web.</description>
+        <platform>all</platform>
+        <license></license>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

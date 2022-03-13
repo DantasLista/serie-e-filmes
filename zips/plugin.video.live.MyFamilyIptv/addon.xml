@@ -1,0 +1,29 @@
+<?xml version="3.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.live.FamilyIptv"
+       name="[COLOR gold][B]MY FAMILY[/B][/COLOR] [COLOR lime][B]IPTV[/B][/COLOR]"
+       version="1.0"
+       provider-name="[B][COLOR white]A.DANTAS[/COLOR][/B]">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+  <summary>[B][COLOR white]TV[/COLOR][/B] [COLOR lime][B]l[/B][/COLOR] [B][COLOR white]FILMES[/COLOR][/B][B][COLOR lime]l[/COLOR][/B] [B][COLOR white]SÉRIES[/COLOR][/B] [B][COLOR lime]l[/COLOR][/B] [B][COLOR white]NOVELAS[/COLOR][/B] [B][COLOR lime]l[/COLOR][/B] [B][COLOR white]DESENHOS E ANIMES[/COLOR][/B] [B][COLOR lime]l[/COLOR][/B] [B][COLOR white]MÚSICAS[/COLOR]</summary>
+  <disclaimer lang="pt"></disclaimer>
+  <description lang="pt">[B][COLOR white]As transmissões que você assiste são de responsabilidade de sites diversos espalhados pela web.[/COLOR][/B]</description>  
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>V1.0 - Criação do Addon.</news>
+</extension>
+</addon>
